@@ -168,4 +168,45 @@
     src: url(/fonts/BebasNeueBold.ttf);
     font-size: 54px;
     color: lightseagreen;
+    flex: center;
+}
+.text__header {
+    font-family: Open Sans;
+    src: url(/fonts/OpenSans-Regular.ttf);
+    font-size: 16px;
+    color: rgb(84, 108, 187);
+    padding-left: 25px;
+
+}
+
+.text__content {
+    font-family: Bebas Neue;
+    src: url(/fonts/BebasNeueBold.ttf);
+    font-size: 34px;
+    color: lightseagreen;
+    margin: 25px 0 0 0;
+
+}
+
+.col-lg-12 {
+    font-family: Bebas Neue;
+    src: url(/fonts/BebasNeueBold.ttf);
+    font-size: 21px;
+    color: rgb(84, 108, 187);
+    text-align: center;
+}
+
+.col-lg-12 ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: 5px 0 5px;
+    padding: 0px;
+    
+    
+}
+.col-lg-12 li{
+    display: block;
+    margin-left: 90px;
+    
 }
